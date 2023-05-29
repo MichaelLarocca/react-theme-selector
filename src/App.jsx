@@ -2,7 +2,10 @@ import { useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
-	const [theme, setTheme] = useState("light");
+	const [theme, setTheme] = useState(() => {
+		const savedTheme = localStorage.getItem("theme");
+		return savedTheme ? savedTheme : "light";
+	});
 
 	function getThemeFromLocalStorage() {
 		const savedTheme = localStorage.getItem("theme");
