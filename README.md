@@ -1,3 +1,5 @@
+![TN-TXG-90](https://github.com/MichaelLarocca/blog-michael-jude-larocca/blob/main/posts/2023/05-23/img/05-29-2023/TN-TXG-90.png?raw=true)
+
 ### React Light and Dark Theme Switcher
 This project demonstrates how to create a simple light and dark theme switcher using React and local storage. The application allows users to toggle between light and dark themes, and the selected theme is saved in the browser's local storage for persistence.
 
@@ -33,7 +35,10 @@ To toggle between light and dark themes, click the "Toggle Theme" button on the 
 #### License
 This project is licensed under the MIT License.
 
-#### Read the full article
-[Learn Local Storage in React: Create a Light and Dark Theme Switcher Application](https://selftaughttxg.com/2023/05-23/learn-local-storage-in-react-create-a-light-and-dark-theme-switcher-application/)
+## Links
 
-![TN-TXG-90](https://github.com/MichaelLarocca/blog-michael-jude-larocca/blob/main/posts/2023/05-23/img/05-29-2023/TN-TXG-90.png?raw=true)
+- [Article](https://selftaughttxg.com/2023/05-23/learn-local-storage-in-react-create-a-light-and-dark-theme-switcher-application/)
+- [Live Demo](https://react-theme-selector.netlify.app/)
+
+## Author
+Michael Larocca - [LinkedIn](https://www.linkedin.com/in/michaeljudelarocca/) | [Twitter](https://twitter.com/MikeJudeLarocca)
