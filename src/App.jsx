@@ -3,8 +3,8 @@ import "./App.css";
 
 function App() {
 	const [theme, setTheme] = useState(() => {
-		const savedTheme = localStorage.getItem("theme");
-		return savedTheme ? savedTheme : "light";
+		const initialTheme = localStorage.getItem("theme");
+		return initialTheme ? initialTheme : "light";
 	});
 
 	function getThemeFromLocalStorage() {
